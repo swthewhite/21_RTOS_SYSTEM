@@ -14,7 +14,7 @@
 #include "button.h"
 #include "log.h"
 #include "ws2812.h"
-
+#include "gpio.h"
 
 bool hwInit(void);
 

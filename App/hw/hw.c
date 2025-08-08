@@ -26,6 +26,7 @@ bool hwInit(void)
   flashInit();
   buttonInit();
   ws2812Init();
+  gpioInit();
   
   return true;
 }
