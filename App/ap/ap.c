@@ -34,6 +34,8 @@ void apMain(void)
     {
       pre_time = millis();
       ledToggle(_DEF_LED1);
+
+      gpioPinWrite(0, _DEF_HIGH);
     }
     delay(1);
 
